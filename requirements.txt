@@ -3,3 +3,4 @@ fastapi
 tavily-python
 crawl4ai
 web3
+uvicorn

@@ -2,7 +2,4 @@ phidata
 fastapi
 tavily-python
 crawl4ai
-pydantic
 web3
-dotenv
-typing

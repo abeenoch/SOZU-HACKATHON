@@ -1,6 +1,6 @@
 ﻿# MANTLE-ECO-AI-AGENT
 
-This repository contains an AI agent built using FastAPI and the Phi framework designed to answer Mantle Protocol-related technical questions. The agent leverages various tools, including custom Web3 functionality, to provide accurate and relevant information. The system uses caching to speed up responses and remembers previous conversations to offer a more context-aware experience.
+This repository contains an AI agent built using FastAPI and the Phidata framework designed to answer Mantle Protocol-related technical questions. The agent leverages various tools, including custom Web3 functionality, to provide accurate and relevant information. The system uses caching to speed up responses and remembers previous conversations to offer a more context-aware experience.
 
 ## Project Overview
 

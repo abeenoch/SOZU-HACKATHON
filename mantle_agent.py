@@ -31,6 +31,7 @@ class Web3Tools(Toolkit):
         self.register(self.get_balance)
         self.register(self.get_transaction)
         self.register(self.get_block)
+        self.register(self.get_latest_block_number)  # Register the new function
 
     def get_balance(self, address: str) -> str:
         """
@@ -60,6 +61,16 @@ class Web3Tools(Toolkit):
             return f"Block Details:\n{block}"
         except:
             return "Block not found or invalid identifier."
+
+    def get_latest_block_number(self) -> str:
+        """
+        Get the latest block number on the Ethereum network.
+        """
+        try:
+            latest_block_number = self._web3.eth.block_number
+            return f"Latest Ethereum block number: {latest_block_number}"
+        except Exception as e:
+            return f"Error fetching latest block number: {e}"
 
 
 class MantleAgentWorkflow(Workflow):

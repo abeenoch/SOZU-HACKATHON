@@ -100,7 +100,7 @@ class MantleAgentWorkflow(Workflow):
 
             ],
             markdown=True,
-            show_tool_calls=True,
+            show_tool_calls=False,
             add_datetime_to_instructions=True,
         )
 

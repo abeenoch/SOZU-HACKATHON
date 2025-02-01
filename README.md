@@ -22,7 +22,7 @@ The Mantle Ecosystem Specialist AI Agent is a powerful assistant for developers 
    OpenAI's GPT-4 is used as the conversational model. It handles natural language understanding, response generation, and context handling.
 
 ### 3. **Web3 Tools**:
-   The `Web3Tools` class integrates with the Ethereum blockchain via the Web3 library. This class provides several functions to interact with blockchain data.
+   The `Web3Tools` class integrates with the Ethereum blockchain via the Web3 library. This class provides several functions to interact with blockchain data.A public mantle RPC is the node used.
 
    #### Functions:
    - **get_balance(address: str)**: 
